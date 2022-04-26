@@ -1,0 +1,113 @@
+body {
+    /* FONTE DA PÄGINA*/
+    font-family: 'Montserrat', sans-serif;
+}
+
+#logo {
+    /* IMAGEM ALURA*/
+    /* Tamanho da imagem */
+    width: 60px;
+    padding: 10px;
+}
+
+header {
+    /* cabecalho */
+    background: #1f7bd6;
+    padding: 20px 0;
+}
+
+.caixa {
+    /* cabecalho principal*/
+    padding-left: 40px;
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+nav {
+    /* cabecalho barra de navegação*/
+    position: absolute;
+    top: 60px;
+    right: 0;
+}
+
+nav li {
+    /* cabecalho lins*/
+    display: inline;
+    margin: 0 0 0 15px;
+    padding-right: 20px;
+}
+
+nav a {
+    /* cabecalho */
+    text-transform: uppercase;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: aqua;
+}
+
+
+/*  fim do cabecalho  */
+
+main {
+    /* centralizaçao de texto  */
+    text-align: center;
+    /* tamanho da fonte  */
+    font-size: 25px;
+    /* Distancia da margem referente ao topo   */
+    padding-top: 3em;
+}
+
+.criptografar {
+    width: 20%;
+    padding: 10px 0;
+    background: #1f7bd6;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s background;
+}
+
+.descriptografar {
+    width: 20%;
+    padding: 10px 0;
+    background: #1f7bd6;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s background;
+}
+
+.criptografar:hover {
+    background: #1a15af;
+}
+
+.descriptografar:hover {
+    background: #1a15af;
+}
+
+.copiar {
+    width: 20%;
+    padding: 10px 0;
+    background: #1f7bd6;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s background;
+}
+
+.copiar:hover {
+    background: #1a15af;
+}
