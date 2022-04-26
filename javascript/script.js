@@ -1,0 +1,1 @@
+var criptografar = document.querySelector("input");
