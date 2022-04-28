@@ -58,3 +58,10 @@ function copiar() {
     caixaDeTexto.setSelectionRange(0, 99999);
     navigator.clipboard.writeText(caixaDeTexto.value);
 }
+
+caixaDeTexto.addEventListener('click', function(e) {
+    let textArea = document.querySelector('.areacolar');
+    textArea.select();
+    document.execCommand('copy');
+
+});
