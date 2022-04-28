@@ -51,11 +51,10 @@ function descriptografar() {
         .replaceAll('ufat', descripto.ufat)
 }
 
-//copiar
+//função copiar
 function copiar() {
     var caixaDeTexto = document.getElementById('input-texto') //
-    caixaDeTexto.select(); //seleciona texto
-    caixaDeTexto.setSelectionRange(0, 99999); //copia em dispositivos moveis
+    caixaDeTexto.select(); //seleciona o texto
+    caixaDeTexto.setSelectionRange(0, 99999);
     navigator.clipboard.writeText(caixaDeTexto.value);
-
 }
