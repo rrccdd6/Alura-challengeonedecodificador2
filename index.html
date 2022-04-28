@@ -27,40 +27,39 @@
     </header>
     <main>
 
-        <section>
-            <h1>Criptografador / Descriptografador</h1>
-            <br>
-            <div class="inserir">
-                <label for="textarea"><h1>Insira o seu texto aqui.</h1></label>
-                <br>
-                <textarea id="textarea" name="texto" rows="20" cols="90"></textarea>
-                <br><br>
-            </div>
-            <div class="criptografa">
-                <input type="submit" value="Criptografar" class="criptografar">
-                <br>
-
-            </div>
-            <div class="descriptografa">
-                <input type="submit" value="Descriptografar" class="descriptografar">
+        </div>
+        <br><br><br>
+        <section class="form box">
+            <form action="">
+                <label for="input-texto"><h1 class="apen">CRIPTOGRAFA / DESCRIPTOGRAFA</h1>
+                    <br><p>Lembrando que somente letras minúsculas e sem acento.</p>
+                    <br><br><br>
+                    
+            </label>
+                <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="insira o texto aqui" />
                 <br><br><br>
-            </div>
-            <div class="resposta">
-                <label for="textarea"><h1>Resposta.</h1></label>
-                <br><br>
-                <textarea id="textarea2" name="texto" rows="20" cols="90"></textarea>
-                <br><br>
-            </div>
-            <div class="copia">
-                <input type="submit" value="Copiar" class="copiar">
-                <br>
-                <br>
-            </div>
+                <div class="botao">
+                    <button class="btn" type="button" value="criptografar!" onclick="criptografar()">
+                    Criptografar
+                </button>
+                    <button class="btn" type="button" value="descriptografar!" onclick="descriptografar()">
+                    Descriptografar
+                </button>
+                    <button class="btn" onclick="copiar()"> Copiar </button>
+                </div>
+            </form>
         </section>
+        </div>
 
     </main>
-    <script>
-    </script>
+    <script src="javascript/script.js"></script>
+    <div>
+        <footer class="rodape">
+            <br>
+            <p> Feito por Ricardo Rodrigues </p>
+        </footer>
+    </div>
+
 </body>
 
 </html>
