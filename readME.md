@@ -1,7 +1,7 @@
 
 <div align="center">
 
-  <img src="assets/logo.png" alt="logo" width="200" height="auto" />
+  
   <h1>Projeto Decodificador Alura</h1>
   
   <p>
